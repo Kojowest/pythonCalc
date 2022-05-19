@@ -37,6 +37,14 @@ elif(operation == '5'):
     else:
         result = (int(num1) / int(num2))
         print(result)
+else:
+    print('Program Ended')
+    res = input('Enter value to restart calculator')
+    if int(res) == 1:
+        print("Hello World")
+
+
+
 
 
 
